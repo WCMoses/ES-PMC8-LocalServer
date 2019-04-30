@@ -1,0 +1,17 @@
+C:\DevTests\LocalServer2\ES_PMC8-Server\ES_PMC8\bin\Debug\ASCOM.ES_PMC8.Server.exe.config
+C:\DevTests\LocalServer2\ES_PMC8-Server\ES_PMC8\bin\Debug\ASCOM.ES_PMC8.Server.exe
+C:\DevTests\LocalServer2\ES_PMC8-Server\ES_PMC8\bin\Debug\ASCOM.ES_PMC8.Server.pdb
+C:\DevTests\LocalServer2\ES_PMC8-Server\ES_PMC8\bin\Debug\ASCOM.Attributes.dll
+C:\DevTests\LocalServer2\ES_PMC8-Server\ES_PMC8\bin\Debug\ASCOM.DeviceInterfaces.dll
+C:\DevTests\LocalServer2\ES_PMC8-Server\ES_PMC8\bin\Debug\ASCOM.Exceptions.dll
+C:\DevTests\LocalServer2\ES_PMC8-Server\ES_PMC8\bin\Debug\ASCOM.Utilities.dll
+C:\DevTests\LocalServer2\ES_PMC8-Server\ES_PMC8\bin\Debug\ASCOM.Attributes.xml
+C:\DevTests\LocalServer2\ES_PMC8-Server\ES_PMC8\bin\Debug\ASCOM.DeviceInterfaces.xml
+C:\DevTests\LocalServer2\ES_PMC8-Server\ES_PMC8\bin\Debug\ASCOM.Exceptions.xml
+C:\DevTests\LocalServer2\ES_PMC8-Server\ES_PMC8\bin\Debug\ASCOM.Utilities.xml
+C:\DevTests\LocalServer2\ES_PMC8-Server\ES_PMC8\obj\Debug\ASCOM.ES_PMC8.frmMain.resources
+C:\DevTests\LocalServer2\ES_PMC8-Server\ES_PMC8\obj\Debug\ES_PMC8.csproj.GenerateResource.cache
+C:\DevTests\LocalServer2\ES_PMC8-Server\ES_PMC8\obj\Debug\ES_PMC8.csproj.CoreCompileInputs.cache
+C:\DevTests\LocalServer2\ES_PMC8-Server\ES_PMC8\obj\Debug\ES_PMC8.csproj.CopyComplete
+C:\DevTests\LocalServer2\ES_PMC8-Server\ES_PMC8\obj\Debug\ASCOM.ES_PMC8.Server.exe
+C:\DevTests\LocalServer2\ES_PMC8-Server\ES_PMC8\obj\Debug\ASCOM.ES_PMC8.Server.pdb
