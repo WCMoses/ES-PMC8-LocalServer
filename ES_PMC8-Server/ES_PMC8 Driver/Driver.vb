@@ -676,8 +676,8 @@ Public Class Telescope
                             objSerial.DTREnable = False
                             'objSerial.Connected = True
                             SharedResources.Connected = True  'TODO: shared serial
-                        Catch
-                            Console.WriteLine("Error")
+                        Catch ex As Exception
+                            Console.WriteLine("Error: " + ex.ToString())
                         End Try
 
                         objSerial.ClearBuffers()

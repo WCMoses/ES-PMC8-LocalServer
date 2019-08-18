@@ -36,7 +36,8 @@ namespace ASCOM.ES_PMC8
             }
             else
             {
-                driver = new ASCOM.DriverAccess.Telescope(Properties.Settings.Default.DriverId);
+                string driverId = Properties.Settings.Default.DriverId;
+                driver = new ASCOM.DriverAccess.Telescope(driverId);
                 driver.Connected = true;
             }
             SetUIState();

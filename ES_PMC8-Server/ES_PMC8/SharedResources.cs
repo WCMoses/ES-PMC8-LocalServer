@@ -28,9 +28,18 @@ namespace ASCOM.ES_PMC8
     /// </summary>
     public static class SharedResources
     {
-
+        public static Guid myGuid = Guid.NewGuid();
         static SharedResources()
         {
+            Console.WriteLine("GUID = " + myGuid.ToString());
+            Type objType = typeof(SharedResources);
+
+            // Print the assembly full name.
+            Console.WriteLine($"Assembly full name:\n   {objType.Assembly.FullName}.");
+
+            // Print the assembly qualified name.
+            Console.WriteLine($"Assembly qualified name:\n   {objType.AssemblyQualifiedName}.");
+
             //Console.WriteLine("Setting com parameters");
             //SharedSerial.Port = 3;
             //SharedSerial.Speed = SerialSpeed.ps115200;
@@ -50,7 +59,7 @@ namespace ASCOM.ES_PMC8
 
             //    Console.WriteLine(ex);
             //}
-
+            Console.WriteLine("Starting new shared resource");
         }
         // object used for locking to prevent multiple drivers accessing common code at the same time
         private static readonly object lockObject = new object();
@@ -117,6 +126,7 @@ namespace ASCOM.ES_PMC8
         /// checking Connected and if it's false setting up the port before setting connected to true.
         /// It could also be put here.
         /// </summary>
+
         public static bool Connected
         {
             set
@@ -128,8 +138,8 @@ namespace ASCOM.ES_PMC8
                     {
                         if (s_z == 0)
                         {
+                            Console.WriteLine("GUID = " + myGuid.ToString());
                             SharedSerial.Connected = true;
-                           
                         }
                         s_z++;
 

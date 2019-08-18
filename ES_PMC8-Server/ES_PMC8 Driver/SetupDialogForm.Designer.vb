@@ -128,19 +128,21 @@ Partial Class SetupDialogForm
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.OK_Button, 0, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.Cancel_Button, 1, 0)
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(267, 446)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(534, 858)
+        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(146, 29)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(292, 56)
         Me.TableLayoutPanel1.TabIndex = 0
         '
         'OK_Button
         '
         Me.OK_Button.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.OK_Button.Location = New System.Drawing.Point(3, 3)
+        Me.OK_Button.Location = New System.Drawing.Point(6, 6)
+        Me.OK_Button.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.OK_Button.Name = "OK_Button"
-        Me.OK_Button.Size = New System.Drawing.Size(67, 23)
+        Me.OK_Button.Size = New System.Drawing.Size(134, 44)
         Me.OK_Button.TabIndex = 0
         Me.OK_Button.Text = "OK"
         '
@@ -148,18 +150,20 @@ Partial Class SetupDialogForm
         '
         Me.Cancel_Button.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Cancel_Button.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.Cancel_Button.Location = New System.Drawing.Point(76, 3)
+        Me.Cancel_Button.Location = New System.Drawing.Point(152, 6)
+        Me.Cancel_Button.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Cancel_Button.Name = "Cancel_Button"
-        Me.Cancel_Button.Size = New System.Drawing.Size(67, 23)
+        Me.Cancel_Button.Size = New System.Drawing.Size(134, 44)
         Me.Cancel_Button.TabIndex = 1
         Me.Cancel_Button.Text = "Cancel"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(171, 114)
+        Me.Label1.Location = New System.Drawing.Point(342, 219)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(113, 13)
+        Me.Label1.Size = New System.Drawing.Size(229, 25)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Explore Scientific, LLC"
         '
@@ -168,7 +172,8 @@ Partial Class SetupDialogForm
         Me.PictureBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox1.Image = Global.ASCOM.ES_PMC8.My.Resources.Resources.ASCOM
-        Me.PictureBox1.Location = New System.Drawing.Point(376, 27)
+        Me.PictureBox1.Location = New System.Drawing.Point(752, 52)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(48, 56)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -178,18 +183,20 @@ Partial Class SetupDialogForm
         'label2
         '
         Me.label2.AutoSize = True
-        Me.label2.Location = New System.Drawing.Point(7, 9)
+        Me.label2.Location = New System.Drawing.Point(14, 17)
+        Me.label2.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.label2.Name = "label2"
-        Me.label2.Size = New System.Drawing.Size(58, 13)
+        Me.label2.Size = New System.Drawing.Size(118, 25)
         Me.label2.TabIndex = 7
         Me.label2.Text = "Comm Port"
         '
         'chkTrace
         '
         Me.chkTrace.AutoSize = True
-        Me.chkTrace.Location = New System.Drawing.Point(24, 41)
+        Me.chkTrace.Location = New System.Drawing.Point(48, 79)
+        Me.chkTrace.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.chkTrace.Name = "chkTrace"
-        Me.chkTrace.Size = New System.Drawing.Size(69, 17)
+        Me.chkTrace.Size = New System.Drawing.Size(129, 29)
         Me.chkTrace.TabIndex = 8
         Me.chkTrace.Text = "Trace on"
         Me.chkTrace.UseVisualStyleBackColor = True
@@ -198,9 +205,10 @@ Partial Class SetupDialogForm
         '
         Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(129, 6)
+        Me.ComboBox1.Location = New System.Drawing.Point(258, 12)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
+        Me.ComboBox1.Size = New System.Drawing.Size(238, 33)
         Me.ComboBox1.TabIndex = 11
         '
         'ComboBox2
@@ -209,17 +217,19 @@ Partial Class SetupDialogForm
         Me.ComboBox2.Enabled = False
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Items.AddRange(New Object() {"300", "2400", "9600", "19200", "38400", "56700", "115200", "230400"})
-        Me.ComboBox2.Location = New System.Drawing.Point(129, 33)
+        Me.ComboBox2.Location = New System.Drawing.Point(258, 63)
+        Me.ComboBox2.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(121, 21)
+        Me.ComboBox2.Size = New System.Drawing.Size(238, 33)
         Me.ComboBox2.TabIndex = 12
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(7, 37)
+        Me.Label3.Location = New System.Drawing.Point(14, 71)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(70, 13)
+        Me.Label3.Size = New System.Drawing.Size(141, 25)
         Me.Label3.TabIndex = 13
         Me.Label3.Text = "Comm Speed"
         '
@@ -228,9 +238,10 @@ Partial Class SetupDialogForm
         Me.PictureBox2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
         Me.PictureBox2.InitialImage = CType(resources.GetObject("PictureBox2.InitialImage"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(189, 27)
+        Me.PictureBox2.Location = New System.Drawing.Point(378, 52)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(166, 56)
+        Me.PictureBox2.Size = New System.Drawing.Size(332, 108)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 14
         Me.PictureBox2.TabStop = False
@@ -243,10 +254,11 @@ Partial Class SetupDialogForm
         Me.TabControl1.Controls.Add(Me.TabPage5)
         Me.TabControl1.Controls.Add(Me.TabPage4)
         Me.TabControl1.HotTrack = True
-        Me.TabControl1.Location = New System.Drawing.Point(15, 216)
+        Me.TabControl1.Location = New System.Drawing.Point(30, 415)
+        Me.TabControl1.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(413, 224)
+        Me.TabControl1.Size = New System.Drawing.Size(826, 431)
         Me.TabControl1.TabIndex = 15
         '
         'TabPage1
@@ -257,10 +269,11 @@ Partial Class SetupDialogForm
         Me.TabPage1.Controls.Add(Me.label2)
         Me.TabPage1.Controls.Add(Me.Label3)
         Me.TabPage1.Controls.Add(Me.ComboBox2)
-        Me.TabPage1.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage1.Location = New System.Drawing.Point(8, 39)
+        Me.TabPage1.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(405, 198)
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.TabPage1.Size = New System.Drawing.Size(810, 384)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Serial Port Setup"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -268,18 +281,20 @@ Partial Class SetupDialogForm
         'Label32
         '
         Me.Label32.AutoSize = True
-        Me.Label32.Location = New System.Drawing.Point(12, 182)
+        Me.Label32.Location = New System.Drawing.Point(24, 350)
+        Me.Label32.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(359, 13)
+        Me.Label32.Size = New System.Drawing.Size(722, 25)
         Me.Label32.TabIndex = 31
         Me.Label32.Text = "* 115200 is the only valid value for the current version. CANNOT CHANGE"
         '
         'Label31
         '
         Me.Label31.AutoSize = True
-        Me.Label31.Location = New System.Drawing.Point(283, 37)
+        Me.Label31.Location = New System.Drawing.Point(566, 71)
+        Me.Label31.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(85, 13)
+        Me.Label31.Size = New System.Drawing.Size(169, 25)
         Me.Label31.TabIndex = 30
         Me.Label31.Text = "default: 115200*"
         '
@@ -295,10 +310,11 @@ Partial Class SetupDialogForm
         Me.TabPage2.Controls.Add(Me.TextBox1)
         Me.TabPage2.Controls.Add(Me.Label4)
         Me.TabPage2.Controls.Add(Me.Label5)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage2.Location = New System.Drawing.Point(8, 39)
+        Me.TabPage2.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(405, 198)
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.TabPage2.Size = New System.Drawing.Size(810, 384)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Wireless Port Setup"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -308,36 +324,40 @@ Partial Class SetupDialogForm
         Me.Label39.AutoSize = True
         Me.Label39.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label39.ForeColor = System.Drawing.Color.Red
-        Me.Label39.Location = New System.Drawing.Point(6, 93)
+        Me.Label39.Location = New System.Drawing.Point(12, 179)
+        Me.Label39.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(361, 15)
+        Me.Label39.Size = New System.Drawing.Size(720, 29)
         Me.Label39.TabIndex = 31
         Me.Label39.Text = "NOTE: IF iEXOS-100 THEN select WiFi Module ESP-WROOM-02"
         '
         'Label30
         '
         Me.Label30.AutoSize = True
-        Me.Label30.Location = New System.Drawing.Point(266, 57)
+        Me.Label30.Location = New System.Drawing.Point(532, 110)
+        Me.Label30.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(131, 13)
+        Me.Label30.Size = New System.Drawing.Size(261, 25)
         Me.Label30.TabIndex = 30
         Me.Label30.Text = "default: Microchip RN-131"
         '
         'Label29
         '
         Me.Label29.AutoSize = True
-        Me.Label29.Location = New System.Drawing.Point(266, 31)
+        Me.Label29.Location = New System.Drawing.Point(532, 60)
+        Me.Label29.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(75, 13)
+        Me.Label29.Size = New System.Drawing.Size(149, 25)
         Me.Label29.TabIndex = 29
         Me.Label29.Text = "default: 54372"
         '
         'Label28
         '
         Me.Label28.AutoSize = True
-        Me.Label28.Location = New System.Drawing.Point(266, 9)
+        Me.Label28.Location = New System.Drawing.Point(532, 17)
+        Me.Label28.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(102, 13)
+        Me.Label28.Size = New System.Drawing.Size(203, 25)
         Me.Label28.TabIndex = 28
         Me.Label28.Text = "default: 192.168.0.1"
         '
@@ -345,49 +365,55 @@ Partial Class SetupDialogForm
         '
         Me.cboWiFiModule.FormattingEnabled = True
         Me.cboWiFiModule.Items.AddRange(New Object() {"Microchip RN-131", "ESP-WROOM-02"})
-        Me.cboWiFiModule.Location = New System.Drawing.Point(128, 58)
+        Me.cboWiFiModule.Location = New System.Drawing.Point(256, 112)
+        Me.cboWiFiModule.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.cboWiFiModule.Name = "cboWiFiModule"
-        Me.cboWiFiModule.Size = New System.Drawing.Size(122, 21)
+        Me.cboWiFiModule.Size = New System.Drawing.Size(240, 33)
         Me.cboWiFiModule.TabIndex = 20
         '
         'Label27
         '
         Me.Label27.AutoSize = True
-        Me.Label27.Location = New System.Drawing.Point(6, 61)
+        Me.Label27.Location = New System.Drawing.Point(12, 117)
+        Me.Label27.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(66, 13)
+        Me.Label27.Size = New System.Drawing.Size(132, 25)
         Me.Label27.TabIndex = 19
         Me.Label27.Text = "WiFi Module"
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(128, 32)
+        Me.TextBox2.Location = New System.Drawing.Point(256, 62)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(122, 20)
+        Me.TextBox2.Size = New System.Drawing.Size(240, 31)
         Me.TextBox2.TabIndex = 18
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(128, 6)
+        Me.TextBox1.Location = New System.Drawing.Point(256, 12)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(122, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(240, 31)
         Me.TextBox1.TabIndex = 18
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(6, 9)
+        Me.Label4.Location = New System.Drawing.Point(12, 17)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(58, 13)
+        Me.Label4.Size = New System.Drawing.Size(116, 25)
         Me.Label4.TabIndex = 14
         Me.Label4.Text = "IP Address"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(6, 35)
+        Me.Label5.Location = New System.Drawing.Point(12, 67)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(78, 13)
+        Me.Label5.Size = New System.Drawing.Size(149, 25)
         Me.Label5.TabIndex = 15
         Me.Label5.Text = "UDP/TCP Port"
         '
@@ -414,9 +440,10 @@ Partial Class SetupDialogForm
         Me.TabPage3.Controls.Add(Me.tbSiteLocation)
         Me.TabPage3.Controls.Add(Me.Label8)
         Me.TabPage3.Controls.Add(Me.Label9)
-        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage3.Location = New System.Drawing.Point(8, 39)
+        Me.TabPage3.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Size = New System.Drawing.Size(405, 198)
+        Me.TabPage3.Size = New System.Drawing.Size(810, 384)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "Site Data"
         Me.TabPage3.UseVisualStyleBackColor = True
@@ -424,175 +451,196 @@ Partial Class SetupDialogForm
         'Label37
         '
         Me.Label37.AutoSize = True
-        Me.Label37.Location = New System.Drawing.Point(300, 170)
+        Me.Label37.Location = New System.Drawing.Point(600, 327)
+        Me.Label37.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(57, 13)
+        Me.Label37.Size = New System.Drawing.Size(115, 25)
         Me.Label37.TabIndex = 36
         Me.Label37.Text = "Length (m)"
         '
         'tbFocalLength
         '
-        Me.tbFocalLength.Location = New System.Drawing.Point(131, 167)
+        Me.tbFocalLength.Location = New System.Drawing.Point(262, 321)
+        Me.tbFocalLength.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.tbFocalLength.Name = "tbFocalLength"
-        Me.tbFocalLength.Size = New System.Drawing.Size(119, 20)
+        Me.tbFocalLength.Size = New System.Drawing.Size(234, 31)
         Me.tbFocalLength.TabIndex = 35
         '
         'Label38
         '
         Me.Label38.AutoSize = True
-        Me.Label38.Location = New System.Drawing.Point(7, 170)
+        Me.Label38.Location = New System.Drawing.Point(14, 327)
+        Me.Label38.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(69, 13)
+        Me.Label38.Size = New System.Drawing.Size(137, 25)
         Me.Label38.TabIndex = 34
         Me.Label38.Text = "Focal Length"
         '
         'Label35
         '
         Me.Label35.AutoSize = True
-        Me.Label35.Location = New System.Drawing.Point(300, 144)
+        Me.Label35.Location = New System.Drawing.Point(600, 277)
+        Me.Label35.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(58, 13)
+        Me.Label35.Size = New System.Drawing.Size(116, 25)
         Me.Label35.TabIndex = 33
         Me.Label35.Text = "Area (m^2)"
         '
         'tbApertureArea
         '
-        Me.tbApertureArea.Location = New System.Drawing.Point(131, 141)
+        Me.tbApertureArea.Location = New System.Drawing.Point(262, 271)
+        Me.tbApertureArea.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.tbApertureArea.Name = "tbApertureArea"
-        Me.tbApertureArea.Size = New System.Drawing.Size(119, 20)
+        Me.tbApertureArea.Size = New System.Drawing.Size(234, 31)
         Me.tbApertureArea.TabIndex = 32
         '
         'Label36
         '
         Me.Label36.AutoSize = True
-        Me.Label36.Location = New System.Drawing.Point(7, 144)
+        Me.Label36.Location = New System.Drawing.Point(14, 277)
+        Me.Label36.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(70, 13)
+        Me.Label36.Size = New System.Drawing.Size(142, 25)
         Me.Label36.TabIndex = 31
         Me.Label36.Text = "Aperture Size"
         '
         'Label33
         '
         Me.Label33.AutoSize = True
-        Me.Label33.Location = New System.Drawing.Point(300, 118)
+        Me.Label33.Location = New System.Drawing.Point(600, 227)
+        Me.Label33.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(66, 13)
+        Me.Label33.Size = New System.Drawing.Size(135, 25)
         Me.Label33.TabIndex = 30
         Me.Label33.Text = "Diameter (m)"
         '
         'tbApertureDiameter
         '
-        Me.tbApertureDiameter.Location = New System.Drawing.Point(131, 115)
+        Me.tbApertureDiameter.Location = New System.Drawing.Point(262, 221)
+        Me.tbApertureDiameter.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.tbApertureDiameter.Name = "tbApertureDiameter"
-        Me.tbApertureDiameter.Size = New System.Drawing.Size(119, 20)
+        Me.tbApertureDiameter.Size = New System.Drawing.Size(234, 31)
         Me.tbApertureDiameter.TabIndex = 29
         '
         'Label34
         '
         Me.Label34.AutoSize = True
-        Me.Label34.Location = New System.Drawing.Point(7, 118)
+        Me.Label34.Location = New System.Drawing.Point(14, 227)
+        Me.Label34.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(100, 13)
+        Me.Label34.Size = New System.Drawing.Size(200, 25)
         Me.Label34.TabIndex = 28
         Me.Label34.Text = "Telescope Aperture"
         '
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(300, 10)
+        Me.Label15.Location = New System.Drawing.Point(600, 19)
+        Me.Label15.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(24, 13)
+        Me.Label15.Size = New System.Drawing.Size(49, 25)
         Me.Label15.TabIndex = 27
         Me.Label15.Text = "City"
         '
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(300, 38)
+        Me.Label14.Location = New System.Drawing.Point(600, 73)
+        Me.Label14.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(56, 13)
+        Me.Label14.Size = New System.Drawing.Size(115, 25)
         Me.Label14.TabIndex = 26
         Me.Label14.Text = "Meters (m)"
         '
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(300, 64)
+        Me.Label13.Location = New System.Drawing.Point(600, 123)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(88, 13)
+        Me.Label13.Size = New System.Drawing.Size(176, 25)
         Me.Label13.TabIndex = 25
         Me.Label13.Text = "Decimal Degrees"
         '
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(300, 92)
+        Me.Label12.Location = New System.Drawing.Point(600, 177)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(88, 13)
+        Me.Label12.Size = New System.Drawing.Size(176, 25)
         Me.Label12.TabIndex = 24
         Me.Label12.Text = "Decimal Degrees"
         '
         'tbSiteLatitude
         '
-        Me.tbSiteLatitude.Location = New System.Drawing.Point(131, 61)
+        Me.tbSiteLatitude.Location = New System.Drawing.Point(262, 117)
+        Me.tbSiteLatitude.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.tbSiteLatitude.Name = "tbSiteLatitude"
-        Me.tbSiteLatitude.Size = New System.Drawing.Size(119, 20)
+        Me.tbSiteLatitude.Size = New System.Drawing.Size(234, 31)
         Me.tbSiteLatitude.TabIndex = 23
         '
         'tbSiteLongitude
         '
-        Me.tbSiteLongitude.Location = New System.Drawing.Point(131, 89)
+        Me.tbSiteLongitude.Location = New System.Drawing.Point(262, 171)
+        Me.tbSiteLongitude.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.tbSiteLongitude.Name = "tbSiteLongitude"
-        Me.tbSiteLongitude.Size = New System.Drawing.Size(119, 20)
+        Me.tbSiteLongitude.Size = New System.Drawing.Size(234, 31)
         Me.tbSiteLongitude.TabIndex = 22
         '
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(7, 64)
+        Me.Label10.Location = New System.Drawing.Point(14, 123)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(66, 13)
+        Me.Label10.Size = New System.Drawing.Size(132, 25)
         Me.Label10.TabIndex = 20
         Me.Label10.Text = "Site Latitude"
         '
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(7, 92)
+        Me.Label11.Location = New System.Drawing.Point(14, 177)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(75, 13)
+        Me.Label11.Size = New System.Drawing.Size(150, 25)
         Me.Label11.TabIndex = 21
         Me.Label11.Text = "Site Longitude"
         '
         'tbSiteElevation
         '
-        Me.tbSiteElevation.Location = New System.Drawing.Point(131, 35)
+        Me.tbSiteElevation.Location = New System.Drawing.Point(262, 67)
+        Me.tbSiteElevation.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.tbSiteElevation.Name = "tbSiteElevation"
-        Me.tbSiteElevation.Size = New System.Drawing.Size(119, 20)
+        Me.tbSiteElevation.Size = New System.Drawing.Size(234, 31)
         Me.tbSiteElevation.TabIndex = 19
         '
         'tbSiteLocation
         '
-        Me.tbSiteLocation.Location = New System.Drawing.Point(131, 7)
+        Me.tbSiteLocation.Location = New System.Drawing.Point(262, 13)
+        Me.tbSiteLocation.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.tbSiteLocation.Name = "tbSiteLocation"
-        Me.tbSiteLocation.Size = New System.Drawing.Size(119, 20)
+        Me.tbSiteLocation.Size = New System.Drawing.Size(234, 31)
         Me.tbSiteLocation.TabIndex = 18
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(7, 10)
+        Me.Label8.Location = New System.Drawing.Point(14, 19)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(69, 13)
+        Me.Label8.Size = New System.Drawing.Size(137, 25)
         Me.Label8.TabIndex = 14
         Me.Label8.Text = "Site Location"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(7, 38)
+        Me.Label9.Location = New System.Drawing.Point(14, 73)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(72, 13)
+        Me.Label9.Size = New System.Drawing.Size(144, 25)
         Me.Label9.TabIndex = 17
         Me.Label9.Text = "Site Elevation"
         '
@@ -605,9 +653,10 @@ Partial Class SetupDialogForm
         Me.TabPage5.Controls.Add(Me.nud_RA)
         Me.TabPage5.Controls.Add(Me.Label21)
         Me.TabPage5.Controls.Add(Me.btn_ST4Calibration)
-        Me.TabPage5.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage5.Location = New System.Drawing.Point(8, 39)
+        Me.TabPage5.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.TabPage5.Name = "TabPage5"
-        Me.TabPage5.Size = New System.Drawing.Size(405, 198)
+        Me.TabPage5.Size = New System.Drawing.Size(810, 384)
         Me.TabPage5.TabIndex = 4
         Me.TabPage5.Text = "Pulse Guiding"
         Me.TabPage5.UseVisualStyleBackColor = True
@@ -615,20 +664,22 @@ Partial Class SetupDialogForm
         'nud_PulseTime
         '
         Me.nud_PulseTime.Increment = New Decimal(New Integer() {10, 0, 0, 0})
-        Me.nud_PulseTime.Location = New System.Drawing.Point(170, 83)
+        Me.nud_PulseTime.Location = New System.Drawing.Point(340, 160)
+        Me.nud_PulseTime.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.nud_PulseTime.Maximum = New Decimal(New Integer() {500, 0, 0, 0})
         Me.nud_PulseTime.Minimum = New Decimal(New Integer() {20, 0, 0, 0})
         Me.nud_PulseTime.Name = "nud_PulseTime"
-        Me.nud_PulseTime.Size = New System.Drawing.Size(75, 20)
+        Me.nud_PulseTime.Size = New System.Drawing.Size(150, 31)
         Me.nud_PulseTime.TabIndex = 38
         Me.nud_PulseTime.Value = New Decimal(New Integer() {100, 0, 0, 0})
         '
         'Label24
         '
         Me.Label24.AutoSize = True
-        Me.Label24.Location = New System.Drawing.Point(18, 85)
+        Me.Label24.Location = New System.Drawing.Point(36, 163)
+        Me.Label24.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(121, 13)
+        Me.Label24.Size = New System.Drawing.Size(248, 25)
         Me.Label24.TabIndex = 37
         Me.Label24.Text = "Minimum Pulse Time mS"
         '
@@ -636,19 +687,21 @@ Partial Class SetupDialogForm
         '
         Me.nud_DEC.DecimalPlaces = 2
         Me.nud_DEC.Increment = New Decimal(New Integer() {5, 0, 0, 131072})
-        Me.nud_DEC.Location = New System.Drawing.Point(170, 52)
+        Me.nud_DEC.Location = New System.Drawing.Point(340, 100)
+        Me.nud_DEC.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.nud_DEC.Maximum = New Decimal(New Integer() {1, 0, 0, 0})
         Me.nud_DEC.Name = "nud_DEC"
-        Me.nud_DEC.Size = New System.Drawing.Size(75, 20)
+        Me.nud_DEC.Size = New System.Drawing.Size(150, 31)
         Me.nud_DEC.TabIndex = 36
         Me.nud_DEC.Value = New Decimal(New Integer() {40, 0, 0, 131072})
         '
         'Label22
         '
         Me.Label22.AutoSize = True
-        Me.Label22.Location = New System.Drawing.Point(18, 54)
+        Me.Label22.Location = New System.Drawing.Point(36, 104)
+        Me.Label22.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(137, 13)
+        Me.Label22.Size = New System.Drawing.Size(276, 25)
         Me.Label22.TabIndex = 35
         Me.Label22.Text = "DEC Sidereal Rate Fraction"
         '
@@ -656,28 +709,31 @@ Partial Class SetupDialogForm
         '
         Me.nud_RA.DecimalPlaces = 2
         Me.nud_RA.Increment = New Decimal(New Integer() {5, 0, 0, 131072})
-        Me.nud_RA.Location = New System.Drawing.Point(170, 23)
+        Me.nud_RA.Location = New System.Drawing.Point(340, 44)
+        Me.nud_RA.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.nud_RA.Maximum = New Decimal(New Integer() {1, 0, 0, 0})
         Me.nud_RA.Name = "nud_RA"
-        Me.nud_RA.Size = New System.Drawing.Size(75, 20)
+        Me.nud_RA.Size = New System.Drawing.Size(150, 31)
         Me.nud_RA.TabIndex = 34
         Me.nud_RA.Value = New Decimal(New Integer() {40, 0, 0, 131072})
         '
         'Label21
         '
         Me.Label21.AutoSize = True
-        Me.Label21.Location = New System.Drawing.Point(18, 25)
+        Me.Label21.Location = New System.Drawing.Point(36, 48)
+        Me.Label21.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(130, 13)
+        Me.Label21.Size = New System.Drawing.Size(261, 25)
         Me.Label21.TabIndex = 29
         Me.Label21.Text = "RA Sidereal Rate Fraction"
         '
         'btn_ST4Calibration
         '
         Me.btn_ST4Calibration.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.btn_ST4Calibration.Location = New System.Drawing.Point(21, 150)
+        Me.btn_ST4Calibration.Location = New System.Drawing.Point(42, 288)
+        Me.btn_ST4Calibration.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.btn_ST4Calibration.Name = "btn_ST4Calibration"
-        Me.btn_ST4Calibration.Size = New System.Drawing.Size(84, 23)
+        Me.btn_ST4Calibration.Size = New System.Drawing.Size(168, 44)
         Me.btn_ST4Calibration.TabIndex = 28
         Me.btn_ST4Calibration.Text = "ST4 CAL"
         Me.btn_ST4Calibration.Visible = False
@@ -692,9 +748,10 @@ Partial Class SetupDialogForm
         Me.TabPage4.Controls.Add(Me.Label18)
         Me.TabPage4.Controls.Add(Me.cbRefraction)
         Me.TabPage4.Controls.Add(Me.chkTrace)
-        Me.TabPage4.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage4.Location = New System.Drawing.Point(8, 39)
+        Me.TabPage4.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.TabPage4.Name = "TabPage4"
-        Me.TabPage4.Size = New System.Drawing.Size(405, 198)
+        Me.TabPage4.Size = New System.Drawing.Size(810, 384)
         Me.TabPage4.TabIndex = 3
         Me.TabPage4.Text = "Miscellaneous"
         Me.TabPage4.UseVisualStyleBackColor = True
@@ -702,17 +759,19 @@ Partial Class SetupDialogForm
         'Label26
         '
         Me.Label26.AutoSize = True
-        Me.Label26.Location = New System.Drawing.Point(299, 14)
+        Me.Label26.Location = New System.Drawing.Point(598, 27)
+        Me.Label26.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(69, 13)
+        Me.Label26.Size = New System.Drawing.Size(131, 25)
         Me.Label26.TabIndex = 24
         Me.Label26.Text = "Arc-Sec/Sec"
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(207, 139)
+        Me.Button1.Location = New System.Drawing.Point(414, 267)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(150, 44)
         Me.Button1.TabIndex = 23
         Me.Button1.Text = "TEST"
         Me.Button1.UseVisualStyleBackColor = True
@@ -720,16 +779,18 @@ Partial Class SetupDialogForm
         '
         'tbRateOffset
         '
-        Me.tbRateOffset.Location = New System.Drawing.Point(131, 11)
+        Me.tbRateOffset.Location = New System.Drawing.Point(262, 21)
+        Me.tbRateOffset.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.tbRateOffset.Name = "tbRateOffset"
-        Me.tbRateOffset.Size = New System.Drawing.Size(119, 20)
+        Me.tbRateOffset.Size = New System.Drawing.Size(234, 31)
         Me.tbRateOffset.TabIndex = 21
         '
         'tbAmbientTemp
         '
-        Me.tbAmbientTemp.Location = New System.Drawing.Point(85, 141)
+        Me.tbAmbientTemp.Location = New System.Drawing.Point(170, 271)
+        Me.tbAmbientTemp.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.tbAmbientTemp.Name = "tbAmbientTemp"
-        Me.tbAmbientTemp.Size = New System.Drawing.Size(100, 20)
+        Me.tbAmbientTemp.Size = New System.Drawing.Size(196, 31)
         Me.tbAmbientTemp.TabIndex = 22
         Me.tbAmbientTemp.Visible = False
         '
@@ -737,9 +798,10 @@ Partial Class SetupDialogForm
         '
         Me.Label17.AutoSize = True
         Me.Label17.Enabled = False
-        Me.Label17.Location = New System.Drawing.Point(7, 144)
+        Me.Label17.Location = New System.Drawing.Point(14, 277)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(75, 13)
+        Me.Label17.Size = New System.Drawing.Size(150, 25)
         Me.Label17.TabIndex = 19
         Me.Label17.Text = "Ambient Temp"
         Me.Label17.Visible = False
@@ -747,18 +809,20 @@ Partial Class SetupDialogForm
         'Label18
         '
         Me.Label18.AutoSize = True
-        Me.Label18.Location = New System.Drawing.Point(21, 14)
+        Me.Label18.Location = New System.Drawing.Point(42, 27)
+        Me.Label18.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(61, 13)
+        Me.Label18.Size = New System.Drawing.Size(120, 25)
         Me.Label18.TabIndex = 20
         Me.Label18.Text = "Rate Offset"
         '
         'cbRefraction
         '
         Me.cbRefraction.AutoSize = True
-        Me.cbRefraction.Location = New System.Drawing.Point(24, 64)
+        Me.cbRefraction.Location = New System.Drawing.Point(48, 123)
+        Me.cbRefraction.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.cbRefraction.Name = "cbRefraction"
-        Me.cbRefraction.Size = New System.Drawing.Size(161, 17)
+        Me.cbRefraction.Size = New System.Drawing.Size(319, 29)
         Me.cbRefraction.TabIndex = 0
         Me.cbRefraction.Text = "Apply Refraction Correction?"
         Me.cbRefraction.UseVisualStyleBackColor = True
@@ -767,9 +831,10 @@ Partial Class SetupDialogForm
         'RadioButton1
         '
         Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(175, 166)
+        Me.RadioButton1.Location = New System.Drawing.Point(350, 319)
+        Me.RadioButton1.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(109, 17)
+        Me.RadioButton1.Size = New System.Drawing.Size(216, 29)
         Me.RadioButton1.TabIndex = 16
         Me.RadioButton1.Text = "Enable Serial Port"
         Me.RadioButton1.UseVisualStyleBackColor = True
@@ -777,9 +842,10 @@ Partial Class SetupDialogForm
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(171, 127)
+        Me.Label6.Location = New System.Drawing.Point(342, 244)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(209, 13)
+        Me.Label6.Size = New System.Drawing.Size(419, 25)
         Me.Label6.TabIndex = 18
         Me.Label6.Text = "1010 S. 48th Street, Springdale, AR 72762"
         '
@@ -787,9 +853,10 @@ Partial Class SetupDialogForm
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(16, 189)
+        Me.Label7.Location = New System.Drawing.Point(32, 363)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(37, 13)
+        Me.Label7.Size = New System.Drawing.Size(72, 26)
         Me.Label7.TabIndex = 20
         Me.Label7.Text = "Mount"
         '
@@ -798,18 +865,20 @@ Partial Class SetupDialogForm
         Me.ComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox3.FormattingEnabled = True
         Me.ComboBox3.Items.AddRange(New Object() {"Explore Scientific iEXOS-100", "Explore Scientific EXOS II", "Explore Scientific iEXOS-300", "Losmandy G-11", "Losmandy Titan"})
-        Me.ComboBox3.Location = New System.Drawing.Point(59, 186)
+        Me.ComboBox3.Location = New System.Drawing.Point(118, 358)
+        Me.ComboBox3.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(185, 21)
+        Me.ComboBox3.Size = New System.Drawing.Size(366, 33)
         Me.ComboBox3.TabIndex = 21
         '
         'RadioButton3
         '
         Me.RadioButton3.AutoSize = True
         Me.RadioButton3.Checked = True
-        Me.RadioButton3.Location = New System.Drawing.Point(286, 166)
+        Me.RadioButton3.Location = New System.Drawing.Point(572, 319)
+        Me.RadioButton3.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(121, 17)
+        Me.RadioButton3.Size = New System.Drawing.Size(232, 29)
         Me.RadioButton3.TabIndex = 22
         Me.RadioButton3.TabStop = True
         Me.RadioButton3.Text = "Enable WiFi TCP/IP"
@@ -818,34 +887,38 @@ Partial Class SetupDialogForm
         'PictureBox3
         '
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(4, 27)
+        Me.PictureBox3.Location = New System.Drawing.Point(8, 52)
+        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(161, 149)
+        Me.PictureBox3.Size = New System.Drawing.Size(322, 287)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox3.TabIndex = 23
         Me.PictureBox3.TabStop = False
         '
         'MenuStrip1
         '
+        Me.MenuStrip1.GripMargin = New System.Windows.Forms.Padding(2, 2, 0, 2)
+        Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(32, 32)
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem1})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(435, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(870, 48)
         Me.MenuStrip1.TabIndex = 24
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'ToolStripMenuItem1
         '
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(52, 20)
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(100, 40)
         Me.ToolStripMenuItem1.Text = "About"
         '
         'Label16
         '
         Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(16, 443)
+        Me.Label16.Location = New System.Drawing.Point(32, 852)
+        Me.Label16.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(232, 13)
+        Me.Label16.Size = New System.Drawing.Size(473, 25)
         Me.Label16.TabIndex = 25
         Me.Label16.Text = "Copyright (c) 2013-2019 Explore Scientific, LLC."
         '
@@ -855,11 +928,12 @@ Partial Class SetupDialogForm
         Me.Label19.BackColor = System.Drawing.Color.White
         Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.ForeColor = System.Drawing.Color.Green
-        Me.Label19.Location = New System.Drawing.Point(12, 459)
+        Me.Label19.Location = New System.Drawing.Point(24, 883)
+        Me.Label19.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(252, 15)
+        Me.Label19.Size = New System.Drawing.Size(86, 29)
         Me.Label19.TabIndex = 26
-        Me.Label19.Text = "2019.01.07 RELEASE ANY CPU B0.0.1"
+        Me.Label19.Text = "Test 1"
         '
         'Label20
         '
@@ -867,18 +941,20 @@ Partial Class SetupDialogForm
         Me.Label20.BackColor = System.Drawing.Color.Gold
         Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label20.ForeColor = System.Drawing.Color.Black
-        Me.Label20.Location = New System.Drawing.Point(185, 86)
+        Me.Label20.Location = New System.Drawing.Point(370, 165)
+        Me.Label20.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(246, 20)
+        Me.Label20.Size = New System.Drawing.Size(470, 37)
         Me.Label20.TabIndex = 27
         Me.Label20.Text = "www.explorescientificusa.com"
         '
         'Label23
         '
         Me.Label23.AutoSize = True
-        Me.Label23.Location = New System.Drawing.Point(171, 140)
+        Me.Label23.Location = New System.Drawing.Point(342, 269)
+        Me.Label23.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(160, 13)
+        Me.Label23.Size = New System.Drawing.Size(325, 25)
         Me.Label23.TabIndex = 29
         Me.Label23.Text = "Customer Support 866-252-3811"
         '
@@ -887,28 +963,30 @@ Partial Class SetupDialogForm
         Me.ComboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox4.FormattingEnabled = True
         Me.ComboBox4.Items.AddRange(New Object() {"Sidereal", "Lunar", "Solar", "King"})
-        Me.ComboBox4.Location = New System.Drawing.Point(297, 186)
+        Me.ComboBox4.Location = New System.Drawing.Point(594, 358)
+        Me.ComboBox4.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(126, 21)
+        Me.ComboBox4.Size = New System.Drawing.Size(248, 33)
         Me.ComboBox4.TabIndex = 30
         '
         'Label25
         '
         Me.Label25.AutoSize = True
-        Me.Label25.Location = New System.Drawing.Point(261, 189)
+        Me.Label25.Location = New System.Drawing.Point(522, 363)
+        Me.Label25.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(30, 13)
+        Me.Label25.Size = New System.Drawing.Size(57, 25)
         Me.Label25.TabIndex = 31
         Me.Label25.Text = "Rate"
         '
         'SetupDialogForm
         '
         Me.AcceptButton = Me.OK_Button
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.CancelButton = Me.Cancel_Button
-        Me.ClientSize = New System.Drawing.Size(435, 478)
+        Me.ClientSize = New System.Drawing.Size(870, 919)
         Me.Controls.Add(Me.Label25)
         Me.Controls.Add(Me.ComboBox4)
         Me.Controls.Add(Me.Label23)
@@ -929,6 +1007,7 @@ Partial Class SetupDialogForm
         Me.Controls.Add(Me.MenuStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.MainMenuStrip = Me.MenuStrip1
+        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "SetupDialogForm"

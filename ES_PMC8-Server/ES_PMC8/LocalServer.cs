@@ -591,9 +591,11 @@ namespace ASCOM.ES_PMC8
         // SERVER ENTRY POINT
         // ==================
         //
+       // private static Guid myGuid = new Guid();
         [STAThread]
         static void Main(string[] args)
         {
+           // MessageBox.Show(myGuid.ToString(), "Info");
             if (!LoadComObjectAssemblies()) return;                     // Load served COM class assemblies, get types
 
             if (!ProcessArguments(args)) return;                        // Register/Unregister
@@ -638,18 +640,6 @@ namespace ASCOM.ES_PMC8
                 GarbageCollector.WaitForThreadToStop();
             }
 
-            //////////////////////////////
-            // TEST CODE
-            //Console.WriteLine("Setting com parameters");
-            //SharedResources.SharedSerial.Speed = SerialSpeed.ps115200;
-            //SharedResources.SharedSerial.ReceiveTimeout = 1;
-            //SharedResources.SharedSerial.DataBits = 8;
-            //SharedResources.SharedSerial.StopBits = SerialStopBits.One;
-            //SharedResources.SharedSerial.Parity = SerialParity.None;
-            //SharedResources.SharedSerial.Handshake = SerialHandshake.None;
-            //SharedResources.SharedSerial.RTSEnable = false;
-            //SharedResources.SharedSerial.DTREnable = false;
-            //SharedResources.SharedSerial.Connected = true;
         }
         #endregion
     }
