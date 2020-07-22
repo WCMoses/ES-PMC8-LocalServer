@@ -1,0 +1,57 @@
+D:\TestDev\TestConversions\TestConversion1\Driver\bin\Debug\ASCOM.ES_PMC8.Telescope.dll.config
+D:\TestDev\TestConversions\TestConversion1\Driver\bin\Debug\ASCOM.ES_PMC8.Telescope.dll
+D:\TestDev\TestConversions\TestConversion1\Driver\bin\Debug\ASCOM.ES_PMC8.Telescope.pdb
+D:\TestDev\TestConversions\TestConversion1\Driver\bin\Debug\ASCOM.Astrometry.dll
+D:\TestDev\TestConversions\TestConversion1\Driver\bin\Debug\ASCOM.Attributes.dll
+D:\TestDev\TestConversions\TestConversion1\Driver\bin\Debug\ASCOM.Controls.dll
+D:\TestDev\TestConversions\TestConversion1\Driver\bin\Debug\ASCOM.DeviceInterfaces.dll
+D:\TestDev\TestConversions\TestConversion1\Driver\bin\Debug\ASCOM.ES_PMC8.Server.exe
+D:\TestDev\TestConversions\TestConversion1\Driver\bin\Debug\ASCOM.Exceptions.dll
+D:\TestDev\TestConversions\TestConversion1\Driver\bin\Debug\ASCOM.SettingsProvider.dll
+D:\TestDev\TestConversions\TestConversion1\Driver\bin\Debug\ASCOM.Utilities.dll
+D:\TestDev\TestConversions\TestConversion1\Driver\bin\Debug\MathNet.Numerics.dll
+D:\TestDev\TestConversions\TestConversion1\Driver\bin\Debug\ASCOM.Internal.Extensions.dll
+D:\TestDev\TestConversions\TestConversion1\Driver\bin\Debug\ASCOM.ES_PMC8.Server.pdb
+D:\TestDev\TestConversions\TestConversion1\Driver\bin\Debug\ASCOM.ES_PMC8.Server.exe.config
+D:\TestDev\TestConversions\TestConversion1\Driver\bin\Debug\ASCOM.Astrometry.xml
+D:\TestDev\TestConversions\TestConversion1\Driver\bin\Debug\ASCOM.Attributes.xml
+D:\TestDev\TestConversions\TestConversion1\Driver\bin\Debug\ASCOM.Controls.xml
+D:\TestDev\TestConversions\TestConversion1\Driver\bin\Debug\ASCOM.DeviceInterfaces.xml
+D:\TestDev\TestConversions\TestConversion1\Driver\bin\Debug\ASCOM.Exceptions.xml
+D:\TestDev\TestConversions\TestConversion1\Driver\bin\Debug\ASCOM.SettingsProvider.xml
+D:\TestDev\TestConversions\TestConversion1\Driver\bin\Debug\ASCOM.Utilities.xml
+D:\TestDev\TestConversions\TestConversion1\Driver\bin\Debug\MathNet.Numerics.xml
+D:\TestDev\TestConversions\TestConversion1\Driver\bin\Debug\ASCOM.Internal.Extensions.xml
+D:\TestDev\TestConversions\TestConversion1\Driver\obj\Debug\PMC8_DRV1.vbprojAssemblyReference.cache
+D:\TestDev\TestConversions\TestConversion1\Driver\obj\Debug\ASCOM.ES_PMC8.AboutBox1.resources
+D:\TestDev\TestConversions\TestConversion1\Driver\obj\Debug\ASCOM.ES_PMC8.Alignment.resources
+D:\TestDev\TestConversions\TestConversion1\Driver\obj\Debug\ASCOM.ES_PMC8.Resources.resources
+D:\TestDev\TestConversions\TestConversion1\Driver\obj\Debug\ASCOM.ES_PMC8.SetupDialogForm.resources
+D:\TestDev\TestConversions\TestConversion1\Driver\obj\Debug\PMC8_DRV1.vbproj.GenerateResource.cache
+D:\TestDev\TestConversions\TestConversion1\Driver\obj\Debug\PMC8_DRV1.vbproj.CoreCompileInputs.cache
+D:\TestDev\TestConversions\TestConversion1\Driver\obj\Debug\PMC8_DRV1.vbproj.CopyComplete
+D:\TestDev\TestConversions\TestConversion1\Driver\obj\Debug\ASCOM.ES_PMC8.Telescope.dll
+D:\TestDev\TestConversions\TestConversion1\Driver\obj\Debug\ASCOM.ES_PMC8.Telescope.pdb
+D:\TestDev\TestConversions\TestConversion1\Driver\obj\Debug\ASCOM.ES_PMC8.SetupDialogForm2.resources
+D:\TestDev\TestConversions\TestConversion1\Driver\bin\Debug\ASCOM.DriverAccess.dll
+D:\TestDev\TestConversions\TestConversion1\Driver\bin\Debug\ASCOM.Utilities.Video.dll
+D:\TestDev\TestConversions\TestConversion1\Driver\bin\Debug\ASCOM.DriverAccess.xml
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\Driver\bin\Debug\ASCOM.PMC8.Telescope.dll.config
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\Driver\bin\Debug\ASCOM.PMC8.Telescope.dll
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\Driver\bin\Debug\ASCOM.PMC8.Telescope.pdb
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\Driver\bin\Debug\ASCOM.PMC8_Server.exe
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\Driver\bin\Debug\MathNet.Numerics.dll
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\Driver\bin\Debug\ASCOM.PMC8_Server.pdb
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\Driver\bin\Debug\ASCOM.PMC8_Server.exe.config
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\Driver\bin\Debug\MathNet.Numerics.xml
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\Driver\obj\Debug\PMC8_DRV1.vbprojAssemblyReference.cache
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\Driver\obj\Debug\ASCOM.ES_PMC8.AboutBox1.resources
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\Driver\obj\Debug\ASCOM.ES_PMC8.Alignment.resources
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\Driver\obj\Debug\ASCOM.ES_PMC8.Resources.resources
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\Driver\obj\Debug\ASCOM.ES_PMC8.SetupDialogForm.resources
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\Driver\obj\Debug\ASCOM.ES_PMC8.SetupDialogForm2.resources
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\Driver\obj\Debug\PMC8_DRV1.vbproj.GenerateResource.cache
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\Driver\obj\Debug\PMC8_DRV1.vbproj.CoreCompileInputs.cache
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\Driver\obj\Debug\PMC8_DRV1.vbproj.CopyComplete
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\Driver\obj\Debug\ASCOM.PMC8.Telescope.dll
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\Driver\obj\Debug\ASCOM.PMC8.Telescope.pdb
