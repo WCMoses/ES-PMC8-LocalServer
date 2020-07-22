@@ -14,7 +14,7 @@ using ASCOM.DeviceInterface;
 using ASCOM.Utilities;
 using ASCOM.Astrometry.Transform;
 using ASCOM.Utilities.Interfaces;
-//using ASCOM.PMC8_Server;
+using ASCOM.ES_PMC8;
 
 namespace Pmc8Server
 {
@@ -22,8 +22,8 @@ namespace Pmc8Server
     public partial class Commander : Form
     {
 
-        internal static string driverID = "ASCOM.ES_PMC8.Telescope";
-        internal static string driverDescription = "ES_PMC8 Telescope";
+        internal static string driverID = "ASCOM.PMC8.Telescope";
+        internal static string driverDescription = "PMC8 Telescope Server";
         internal static string comPortProfileName = "COM Port"; // Constants used for Profile persistence
         internal static string comSpeedProfileName = "COM Speed";
         internal static string traceStateProfileName = "Trace Level";
@@ -107,7 +107,7 @@ namespace Pmc8Server
         internal static float DEC_SiderealRateFraction;
         internal static Int16 MinimumPulseTime;
         internal static string WiFiModuleID;
-        //public ASCOM.PMC8_Server.Telescope Telescope { get; set; }
+        public ASCOM.ES_PMC8.Telescope Telescope { get; set; }
         public ASCOM.DriverAccess.Telescope driver = null;
 
         public Commander()
@@ -116,9 +116,9 @@ namespace Pmc8Server
             //MessageBox.Show("Attach Now to commander", "Notice");
             try
             {
-                ReadProfile();
-                txtProfile.Text = GetProfileString();
-                LoadFormSetupValues();
+                //ReadProfile();
+                //txtProfile.Text = GetProfileString();
+               // LoadFormSetupValues();
             }
             catch (Exception)
             {
@@ -131,7 +131,7 @@ namespace Pmc8Server
         {
             var telescope = new ASCOM.DriverAccess.Telescope("ASCOM.ES_PMC8.Telescope");
 
-            //Telescope.Connected = true;
+            Telescope.Connected = true;
 
         }
         private void DisplayDriverProps() // OK button event handler
@@ -202,6 +202,42 @@ namespace Pmc8Server
             DEC_SiderealRateFraction = Convert.ToInt16(nud_DEC.Value);
             MinimumPulseTime = Convert.ToInt16(nud_PulseTime.Value);
 
+        }
+
+        public void WriteDefaultValues()
+        {
+            using (ASCOM.Utilities.Profile driverProfile = new ASCOM.Utilities.Profile())
+            {
+                driverProfile.DeviceType = "Telescope";
+                driverProfile.WriteValue(driverID, traceStateProfileName, traceStateDefault);
+                driverProfile.WriteValue(driverID, comPortProfileName, comPortDefault);
+                driverProfile.WriteValue(driverID, comSpeedProfileName, comSpeedDefault);
+                driverProfile.WriteValue(driverID, IPAddressProfileName, IPAddressDefault);
+                driverProfile.WriteValue(driverID, IPPortProfileName, IPPortDefault);
+                driverProfile.WriteValue(driverID, WirelessEnabledProfileName, WirelessEnabledDefault);
+                driverProfile.WriteValue(driverID, WirelessProtocolProfileName, WirelessProtocolDefault);
+                driverProfile.WriteValue(driverID, MountProfileName, "G-11");
+                driverProfile.WriteValue(driverID, RateProfileName, RateDefault);
+                driverProfile.WriteValue(driverID, MountRACountsProfileName, MountRACountsDefault);
+                driverProfile.WriteValue(driverID, MountDECCountsProfileName, MountDECCountsDefault);
+                driverProfile.WriteValue(driverID, ApertureDiameterProfileName, ApertureDiameterDefault);
+                driverProfile.WriteValue(driverID, ApertureAreaProfileName, ApertureAreaDefault);
+                driverProfile.WriteValue(driverID, FocalLengthProfileName, FocalLengthDefault);
+                driverProfile.WriteValue(driverID, SiteLocationProfileName, SiteLocationDefault);
+                driverProfile.WriteValue(driverID, SiteElevationProfileName, SiteElevationDefault);
+                driverProfile.WriteValue(driverID, SiteLatitudeProfileName, SiteLatitudeDefault);
+                driverProfile.WriteValue(driverID, SiteLongitudeProfileName, SiteLongitudeDefault);
+                driverProfile.WriteValue(driverID, RateOffsetProfileName, RateOffsetDefalut);
+                driverProfile.WriteValue(driverID, SiteAmbientTemperatureProfileName, SiteAmbientTemperatureDefault);
+                driverProfile.WriteValue(driverID, ApplyRefractionCorrectionProfileName, ApplyRefractionCorrectionDefault);
+                driverProfile.WriteValue(driverID, RA_SiderealRateFractionProfileName, RA_SiderealRateFractionDefault);
+                driverProfile.WriteValue(driverID, DEC_SiderealRateFractionProfileName, DEC_SiderealRateFractionDefault);
+                driverProfile.WriteValue(driverID, MininumPulseTimeProfileName, MinimumPulseTimeDefault);
+                driverProfile.WriteValue(driverID, ParkRAPositionProfileName, ParkRAPositionDefault);
+                driverProfile.WriteValue(driverID, ParkDECPositionProfileName, ParkDECPositionDefault);
+                driverProfile.WriteValue(driverID, WiFiModuleIDProfileName, WiFiModuleIDDefault);
+            }
+            Console.WriteLine("Profile default values written to ASCOM profile");
         }
 
         internal void WriteProfile()
@@ -364,8 +400,18 @@ namespace Pmc8Server
 
         private void CmdConnect_Click(object sender, EventArgs e)
         {
-            var driver = new ASCOM.DriverAccess.Telescope("ASCOM.ES_PMC8.Telescope");
+            try
+            {
+            var driver = new ASCOM.DriverAccess.Telescope("ASCOM.PMC8.Telescope");
             driver.Connected = true;
+                MessageBox.Show("Server Connected", "Notice");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("ERROR -  + ex");
+                throw ex;
+            }
+
 
         }
 
@@ -378,6 +424,17 @@ namespace Pmc8Server
         {
             ReadProfile();
             LoadFormSetupValues();
+        }
+
+        private void cmdWriteDefaultValues_Click(object sender, EventArgs e)
+        {
+            WriteDefaultValues();
+            MessageBox.Show("Default Values Written to Profile", "Notice");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

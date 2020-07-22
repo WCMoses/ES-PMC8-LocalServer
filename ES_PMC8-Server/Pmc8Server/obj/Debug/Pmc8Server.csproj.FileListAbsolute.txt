@@ -1,24 +1,25 @@
 D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\Pmc8Server.exe.config
 D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\Pmc8Server.exe
 D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\Pmc8Server.pdb
+D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\obj\Debug\Pmc8Server.Properties.Resources.resources
+D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\obj\Debug\Pmc8Server.csproj.GenerateResource.cache
+D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\obj\Debug\Pmc8Server.csproj.CoreCompileInputs.cache
+D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\obj\Debug\Pmc8Server.exe
+D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\obj\Debug\Pmc8Server.pdb
 D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.Astrometry.dll
 D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.Attributes.dll
 D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.Cache.dll
 D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.Controls.dll
 D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.DeviceInterfaces.dll
 D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.DriverAccess.dll
+D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.ES_PMC8.Telescope.dll
 D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.Exceptions.dll
 D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.Internal.Extensions.dll
-D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.PMC8_Server.Server.exe
-D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.PMC8_Server.Telescope.dll
 D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.SettingsProvider.dll
 D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.Utilities.dll
 D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.Utilities.Video.dll
+D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.ES_PMC8.Server.exe
 D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\MathNet.Numerics.dll
-D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.PMC8_Server.Telescope.pdb
-D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.PMC8_Server.Telescope.dll.config
-D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.PMC8_Server.Server.pdb
-D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.PMC8_Server.Server.exe.config
 D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.Astrometry.xml
 D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.Attributes.xml
 D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.Cache.xml
@@ -29,12 +30,30 @@ D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\De
 D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.Internal.Extensions.xml
 D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.SettingsProvider.xml
 D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.Utilities.xml
+D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.ES_PMC8.Server.pdb
+D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.ES_PMC8.Server.exe.config
 D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\MathNet.Numerics.xml
 D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\obj\Debug\Pmc8Server.csprojAssemblyReference.cache
 D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\obj\Debug\Pmc8Server.Commander.resources
-D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\obj\Debug\Pmc8Server.Properties.Resources.resources
-D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\obj\Debug\Pmc8Server.csproj.GenerateResource.cache
-D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\obj\Debug\Pmc8Server.csproj.CoreCompileInputs.cache
 D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\obj\Debug\Pmc8Server.csproj.CopyComplete
-D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\obj\Debug\Pmc8Server.exe
-D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\obj\Debug\Pmc8Server.pdb
+D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.ES_PMC8.Telescope.pdb
+D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.ES_PMC8.Telescope.dll.config
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\Commander.exe.config
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\Commander.exe
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\Commander.pdb
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.PMC8.Telescope.dll
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.PMC8_Server.exe
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\MathNet.Numerics.dll
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.PMC8.Telescope.pdb
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.PMC8.Telescope.dll.config
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.PMC8_Server.pdb
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\ASCOM.PMC8_Server.exe.config
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\LocalServerSolution\Pmc8Server\bin\Debug\MathNet.Numerics.xml
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\LocalServerSolution\Pmc8Server\obj\Debug\Pmc8Server.csprojAssemblyReference.cache
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\LocalServerSolution\Pmc8Server\obj\Debug\Pmc8Server.Commander.resources
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\LocalServerSolution\Pmc8Server\obj\Debug\Pmc8Server.Properties.Resources.resources
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\LocalServerSolution\Pmc8Server\obj\Debug\Pmc8Server.csproj.GenerateResource.cache
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\LocalServerSolution\Pmc8Server\obj\Debug\Pmc8Server.csproj.CoreCompileInputs.cache
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\LocalServerSolution\Pmc8Server\obj\Debug\Pmc8Server.csproj.CopyComplete
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\LocalServerSolution\Pmc8Server\obj\Debug\Commander.exe
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\LocalServerSolution\Pmc8Server\obj\Debug\Commander.pdb

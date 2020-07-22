@@ -1,0 +1,27 @@
+D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Test-1\bin\Debug\ASCOM.ES_PMC8.Test.exe.config
+D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Test-1\bin\Debug\ASCOM.ES_PMC8.Test.exe
+D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Test-1\bin\Debug\ASCOM.ES_PMC8.Test.pdb
+D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Test-1\bin\Debug\ASCOM.DeviceInterfaces.dll
+D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Test-1\bin\Debug\ASCOM.DriverAccess.dll
+D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Test-1\bin\Debug\ASCOM.Utilities.dll
+D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Test-1\bin\Debug\ASCOM.Exceptions.dll
+D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Test-1\bin\Debug\ASCOM.DeviceInterfaces.xml
+D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Test-1\bin\Debug\ASCOM.DriverAccess.xml
+D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Test-1\bin\Debug\ASCOM.Utilities.xml
+D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Test-1\bin\Debug\ASCOM.Exceptions.xml
+D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Test-1\obj\x86\Debug\ASCOM.ES_PMC8.Form1.resources
+D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Test-1\obj\x86\Debug\ASCOM.ES_PMC8.Properties.Resources.resources
+D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Test-1\obj\x86\Debug\Test-1.csproj.GenerateResource.cache
+D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Test-1\obj\x86\Debug\Test-1.csproj.CoreCompileInputs.cache
+D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Test-1\obj\x86\Debug\Test-1.csproj.CopyComplete
+D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Test-1\obj\x86\Debug\ASCOM.ES_PMC8.Test.exe
+D:\TestDev\TestConversions\TestConversion1\LocalServerSolution\Test-1\obj\x86\Debug\ASCOM.ES_PMC8.Test.pdb
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\LocalServerSolution\Test-1\bin\Debug\PMC8_TEST.exe.config
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\LocalServerSolution\Test-1\bin\Debug\PMC8_TEST.exe
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\LocalServerSolution\Test-1\bin\Debug\PMC8_TEST.pdb
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\LocalServerSolution\Test-1\obj\x86\Debug\ASCOM.ES_PMC8.Form1.resources
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\LocalServerSolution\Test-1\obj\x86\Debug\ASCOM.ES_PMC8.Properties.Resources.resources
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\LocalServerSolution\Test-1\obj\x86\Debug\Test-1.csproj.GenerateResource.cache
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\LocalServerSolution\Test-1\obj\x86\Debug\Test-1.csproj.CoreCompileInputs.cache
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\LocalServerSolution\Test-1\obj\x86\Debug\PMC8_TEST.exe
+D:\TestDev\LatestServer-15\TestConversion1 (15)-9-7-2019\TestConversion1\LocalServerSolution\Test-1\obj\x86\Debug\PMC8_TEST.pdb
